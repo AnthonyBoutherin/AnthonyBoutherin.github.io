@@ -1,3 +1,24 @@
+html body {
+    font-family: 'Akaya Kanadaka', display;
+    background-color: rgb(204, 197, 197);
+}
+
+.nav {
+    background-color: rgba(95, 91, 91, 0.1);
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 1s;
+}
+
+.nav:hover {
+    background-color: rgb(24, 22, 22, 1);
+}
+
 body {
-    background-color: grey;
+    width: 90%;
+    display: flex;
+    justify-content: center;
 }
