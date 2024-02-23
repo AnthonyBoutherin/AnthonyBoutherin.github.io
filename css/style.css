@@ -19,4 +19,10 @@ header {
   color: beige;
   border-radius: 50%;
   background-color: blue;
+  transition: .5s;
+}
+
+.rotate {
+  background-color: red;
+  transform: rotate(90deg);
 }
