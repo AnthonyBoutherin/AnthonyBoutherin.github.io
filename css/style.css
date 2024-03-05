@@ -5,24 +5,47 @@ body {
   margin: 0;
 }
 
-header {
+nav {
+  color: rgb(248, 248, 246);
+  font-size: x-large;
+}
+
+#home {
   text-align: center;
+  margin-top: 5em;
 }
 
-.nav-ul {
-  list-style: none;
-}
-
-.buttonNav {
-  font-weight: bold;
-  font-size: larger;
-  color: beige;
+#logoAb {
+  max-height: 5em;
   border-radius: 50%;
-  background-color: blue;
-  transition: .5s;
+  margin: .2em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: transform 1.5s;
 }
 
-.rotate {
-  background-color: red;
-  transform: rotate(90deg);
+#logoAb:hover {
+  transform: scale(1.5);
+  transition: 1.5s;
+}
+
+.card {
+  width: 45%;
+  border: 3px solid blue;
+}
+
+.cardFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  margin-right: 1em;
+  transition: transform 1.5s;
+}
+
+.nav-item:hover {
+  transform: scale(1.5);
+  transition: 1.5s;
 }
