@@ -22,12 +22,6 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  transition: transform 1.5s;
-}
-
-#logoAb:hover {
-  transform: scale(1.5);
-  transition: 1.5s;
 }
 
 .card {
@@ -48,4 +42,15 @@ nav {
 .nav-item:hover {
   transform: scale(1.5);
   transition: 1.5s;
+}
+
+.contact-item-unit {
+  margin: 1em;
+
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
