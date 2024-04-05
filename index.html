@@ -1,381 +1,282 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="PortFolio d'Anthony Boutherin, Développeur Web" />
-
-  <link href="./images/favicon.ico" rel="icon" type="image/x-icon">
-  <link rel="stylesheet" href="./css/bootstrap.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
-    defer></script>
-
-  <title>PortFolio Anthony Boutherin</title>
-</head>
-
-<body>
-  <!-- HEADER STARTS -->
-  <header id="home">
-    <h1 id="h1" >Anthony Boutherin <br> Développeur Web et Web Mobile</h1>
-  </header>
-  <!-- HEADER ENDS -->
-
-  <!-- NAV STARTS -->
-  <nav class="navbar navbar-expand-lg bg-light fixed-top" data-bs-theme="light">
-    <a class="navbar-brand" href="index.html"><img id="logoAb" src="./images/logo_AB.jpeg" alt="logo_AB" /></a>
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
-        aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarColor03">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"
-              href="https://drive.google.com/file/d/1g8Znlk6KYMiJBmPnsE-Dnr8Mkg6P9yR9/view?usp=drive_link"
-              target="_blank">CV</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/anthony-boutherin/" target="_blank"><svg
-                xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="blue" class="bi bi-linkedin"
-                viewBox="0 0 16 16">
-                <path
-                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-              </svg></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/AnthonyBoutherin" target="_blank"><svg
-                xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" class="bi bi-github"
-                viewBox="0 0 16 16">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-              </svg></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:anthony.boutherin@gmail.com"><svg xmlns="http://www.w3.org/2000/svg"
-                width="32" height="32" fill="red" class="bi bi-envelope" viewBox="0 0 16 16">
-                <path
-                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
-              </svg></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tel:+33769126988"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                fill="green" class="bi bi-telephone" viewBox="0 0 16 16">
-                <path
-                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
-              </svg></a>
-
-          </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio | Anthony Boutherin</title>
+    <!-- Favicon -->
+    <link href="./images/AB.jpeg" rel="icon" type="image/x-icon" />
+    <!-- Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body id="home" class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 text-white py-4">
+      <div class="container mx-auto px-4">
+        <a href="#" class="text-2xl font-bold"
+          >Anthony Boutherin, Dév Web full stack</a
+        >
+        <ul class="flex space-x-4">
+          <li><a href="#home" class="hover:text-gray-300">Accueil</a></li>
+          <li><a href="#projets" class="hover:text-gray-300">Projets</a></li>
+          <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
         </ul>
       </div>
-    </div>
-  </nav>
-  <!-- NAV ENDS -->
-
-  <!-- MAIN STARTS -->
-  <main>
-    <!-- A propos -->
-    <section id="aPropos" class="parts">
-      <div class="part intro">
-        <h3 class="intro-title">Hello World !</h3>
-        <p class="intro-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos iste dolores, corporis provident quam numquam modi, quia commodi, saepe cum dolore! Molestias laudantium modi reprehenderit voluptatum dignissimos ea illum provident maxime nisi, itaque qui reiciendis molestiae repudiandae totam hic quas? Blanditiis, officia in praesentium nam debitis sed temporibus quidem corrupti pariatur saepe dolor dolorem mollitia quasi voluptatem cum hic vero est sequi. Tempore unde natus possimus iure, ea esse dolor voluptatem placeat facere fugiat vitae est voluptatibus commodi ipsam perspiciatis illum doloremque delectus incidunt exercitationem deserunt perferendis quidem laudantium. Sunt, veniam dolorum! Pariatur a, accusamus nihil culpa recusandae sint ipsa.</p>
+    </nav>
+    <!-- Header Section -->
+    <header
+      class="py-20 bg-gradient-to-b from-gray-800 to-gray-700 text-center"
+    >
+      <div class="container mx-auto px-4">
+        <h1 class="text-5xl font-bold text-white mb-4">
+          Bienvenue sur mon Portfolio !
+        </h1>
+        <p class="mt-2 text-lg text-gray-200">
+          Vers une nouvelle carrière professionnelle, basée sur un métier
+          passion!
+        </p>
       </div>
-    </section>
-    <!-- Mes Projets -->
-    <section class="parts">
-      <div class="part">
-        <h3 class="text-center">Mes Projets</h3>
-        <div class="cardFlex">
-          <!-- ONCE UPON AN APP -->
-          <div class="card mb-3 container-fluid text-center">
-            <h3 class="card-header">Once Upon An App</h3>
-            <div class="badges">
-              <h6>Technologie :</h6>
-              <span class="badge rounded-pill d-inline-block p-0 m-0">HTML</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-secondary">CSS</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-success">PHP</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-danger">SYMFONY</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-warning">REACT JS</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-info">JavaScript</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-light">BOOTSTRAP</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-dark">MySQL</span>
-              <br />
-              <h6>Spécificités techniques :</h6>
-              <span class="badge d-inline-block p-0 m-0">MVC</span>
-              <span class="badge d-inline-block p-0 m-0 bg-secondary">POC</span>
-              <span class="badge d-inline-block p-0 m-0 bg-secondary">POO</span>
-              <span class="badge d-inline-block p-0 m-0 bg-success">Fetch / Axios</span>
-              <span class="badge d-inline-block p-0 m-0 bg-danger">API REST</span>
-              <span class="badge d-inline-block p-0 m-0 bg-warning">Déploiement</span>
-              <span class="badge d-inline-block p-0 m-0 bg-info">MédiaQueries</span>
-              <span class="badge d-inline-block p-0 m-0 bg-light">MySQL</span>
-              <span class="badge d-inline-block p-0 m-0 bg-dark">Linux</span>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">L'app dont vous êtes le héros !</h5>
-              <h6 class="card-subtitle text-muted">
-                Jeux d'aventure narrative
-              </h6>
-            </div>
-            <img class="mb-3" src="./images/ouaa/ouaa.jpg" alt="ouaa">
-            <img src="./images/ouaa/backoffice_ouaa.jpg" alt="ouaa">
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+    </header>
+    <!-- Projects Section -->
+    <section id="projets" class="py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-8 text-center">Mes Projets</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- OUAA -->
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img
+              src="./images/ouaa/ouaa.jpg"
+              alt="Project Image"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">Once upon an app 1/2</h3>
+              <p class="text-gray-700">
+                Projet de fin de formation réalisé en équipe en suivant la
+                méthodologie Agile Scrum (rôle personnel Lead Dev Back). <br />
+                Projet amené à une version 2 après formation. <br />
+                Jeu narratif inspiré des
+                <em>Livres dont vous êtes le héros</em>. <br />2 applications :
+                <br />
+                - ReactJS, le jeu, accès public. <br />
+                - PHP framework Symfony, back office (gestion utilisateur et
+                contenu de jeu*). <br />
+                - API REST, algorithme de jeu (histoire, système de combat,
+                système d'inventaire, etc.). <br />
+                * Contenu de jeu généré par Intelligence Artificielle à l'aide
+                de prompts, les images à l'aide de MidJourney et les textes à
+                l'aide de ChatGPT.
               </p>
-            </div>
-            <div class="card-body">
-              <a href="https://onceuponanapp.fr/" class="card-link" target="_blank">Le jeu</a>
-              <a href="https://backoffice.onceuponanapp.fr/" class="card-link" target="_blank">Le back office</a>
+              <p>Visite back office sur demande (raison de sécurité)</p>
+              <a
+                href="https://onceuponanapp.fr"
+                class="block text-blue-600 hover:underline mt-4"
+                target="_blank"
+                >Check it out! 🚀</a
+              >
             </div>
           </div>
-          <!-- Kotlin DICE ROLLER KOTLIN -->
-          <div class="card mb-3 container-fluid text-center">
-            <h3 class="card-header">Dice Roller</h3>
-            <div class="badges">
-              <h6>Technologie :</h6>
-              <span class="badge rounded-pill d-inline-block p-0 m-0">KOTLIN</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-secondary">CSS</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-success">PHP</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-danger">SYMFONY</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-warning">REACT JS</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-info">JavaScript</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-light">BOOTSTRAP</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-dark">MySQL</span>
-              <br />
-              <h6>Spécificités techniques :</h6>
-              <span class="badge d-inline-block p-0 m-0">MVC</span>
-              <span class="badge d-inline-block p-0 m-0 bg-secondary">POC</span>
-              <span class="badge d-inline-block p-0 m-0 bg-secondary">POO</span>
-              <span class="badge d-inline-block p-0 m-0 bg-success">Fetch / Axios</span>
-              <span class="badge d-inline-block p-0 m-0 bg-danger">API REST</span>
-              <span class="badge d-inline-block p-0 m-0 bg-warning">Déploiement</span>
-              <span class="badge d-inline-block p-0 m-0 bg-info">Android Studio</span>
-              <span class="badge d-inline-block p-0 m-0 bg-light">MySQL</span>
-              <span class="badge d-inline-block p-0 m-0 bg-dark">Linux</span>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Lanceur de dé</h5>
-              <h6 class="card-subtitle text-muted">Apprentissage Kotlin</h6>
-            </div>
-            <img class="imgDice" src="./images/diceRoller/kotlin_dice_roller.gif" alt="dice_roller">
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+          <!-- Back Office OUAA -->
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img
+              src="./images/ouaa/backoffice_ouaa.jpg"
+              alt="Project Image"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">
+                Back Office : Once upon an app 2/2
+              </h3>
+              <p class="text-gray-700">
+                Projet de fin de formation réalisé en équipe en suivant la
+                méthodologie Agile Scrum (rôle personnel Lead Dev Back). <br />
+                Projet amené à une version 2 après formation. <br />
+                Jeu narratif inspiré des
+                <em>Livres dont vous êtes le héros</em>. <br />2 applications :
+                <br />
+                - ReactJS, le jeu, accès public. <br />
+                - PHP framework Symfony, back office (gestion utilisateur et
+                contenu de jeu*). <br />
+                - API REST, algorithme de jeu (histoire, système de combat,
+                système d'inventaire, etc.). <br />
+                * Contenu de jeu généré par Intelligence Artificielle à l'aide
+                de prompts, les images à l'aide de MidJourney et les textes à
+                l'aide de ChatGPT.
               </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p>Visite back office sur demande (raison de sécurité)</p>
+              <a
+                href="https://backoffice.onceuponanapp.fr"
+                class="block text-blue-600 hover:underline mt-4"
+                target="_blank"
+                >Visite du back office sur demande (raison de sécurité)</a
+              >
             </div>
           </div>
-          <!-- AfishOn Prestashop -->
-          <div class="card mb-3 container-fluid text-center">
-            <h3 class="card-header">AfishOn</h3>
-            <div class="badges">
-              <h6>Technologie :</h6>
-              <span class="badge rounded-pill d-inline-block p-0 m-0">HTML</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-secondary">CSS</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-success">PHP</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-danger">SYMFONY</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-warning">REACT JS</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-info">JavaScript</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-light">BOOTSTRAP</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-dark">MySQL</span>
-              <br />
-              <h6>Spécificités techniques :</h6>
-              <span class="badge d-inline-block p-0 m-0">MVC</span>
-              <span class="badge d-inline-block p-0 m-0 bg-secondary">POC</span>
-              <span class="badge d-inline-block p-0 m-0 bg-secondary">POO</span>
-              <span class="badge d-inline-block p-0 m-0 bg-success">Fetch / Axios</span>
-              <span class="badge d-inline-block p-0 m-0 bg-danger">API REST</span>
-              <span class="badge d-inline-block p-0 m-0 bg-warning">Déploiement</span>
-              <span class="badge d-inline-block p-0 m-0 bg-info">MédiaQueries</span>
-              <span class="badge d-inline-block p-0 m-0 bg-light">MySQL</span>
-              <span class="badge d-inline-block p-0 m-0 bg-dark">Linux</span>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">L'app dont vous êtes le héros !</h5>
-              <h6 class="card-subtitle text-muted">
-                Jeux d'aventure narrative
-              </h6>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200"
-              aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice"
-              viewBox="0 0 318 180" style="font-size: 1.125rem; text-anchor: middle">
-              <rect width="100%" height="100%" fill="#868e96"></rect>
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-            </svg>
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+          <!-- O'flix -->
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img
+              src="https://picsum.photos/seed/picsum/400/400"
+              alt="Project Image"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">O'Flix, la cinémathèque</h3>
+              <p class="text-gray-700">
+                Projet réalisé lors de la spécialisation Symfony avec O'clock.
+                Il s'agit d'une application réunissant des films.
               </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <a href="#" class="block text-blue-600 hover:underline mt-4"
+                >Check it out! 🚀</a
+              >
             </div>
           </div>
-          <!-- Fetch Démo Js natif -->
-          <div class="card mb-3 container-fluid text-center">
-            <h3 class="card-header">Fetch Démo</h3>
-            <div class="badges">
-              <h6>Technologie :</h6>
-              <span class="badge rounded-pill d-inline-block p-0 m-0">HTML</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-secondary">CSS</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-success">PHP</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-danger">SYMFONY</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-warning">REACT JS</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-info">JavaScript</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-light">BOOTSTRAP</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-dark">MySQL</span>
-              <br />
-              <h6>Spécificités techniques :</h6>
-              <span class="badge d-inline-block p-0 m-0">MVC</span>
-              <span class="badge d-inline-block p-0 m-0 bg-secondary">POC</span>
-              <span class="badge d-inline-block p-0 m-0 bg-secondary">POO</span>
-              <span class="badge d-inline-block p-0 m-0 bg-success">Fetch / Axios</span>
-              <span class="badge d-inline-block p-0 m-0 bg-danger">API REST</span>
-              <span class="badge d-inline-block p-0 m-0 bg-warning">Déploiement</span>
-              <span class="badge d-inline-block p-0 m-0 bg-info">MédiaQueries</span>
-              <span class="badge d-inline-block p-0 m-0 bg-light">MySQL</span>
-              <span class="badge d-inline-block p-0 m-0 bg-dark">Linux</span>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">L'app dont vous êtes le héros !</h5>
-              <h6 class="card-subtitle text-muted">
-                Jeux d'aventure narrative
-              </h6>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200"
-              aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice"
-              viewBox="0 0 318 180" style="font-size: 1.125rem; text-anchor: middle">
-              <rect width="100%" height="100%" fill="#868e96"></rect>
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-            </svg>
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+          <!-- Dice Roller -->
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img
+              src="./images/diceRoller/kotlin_dice_roller.gif"
+              alt="Project Image"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">
+                Dice Roller, Kotlin, How does it work?
+              </h3>
+              <p class="text-gray-700">
+                Projet de découverte Kotlin sur Android Studio, réalisé en
+                autonomie. <br />
+                Paramétrage d'un nouvel environnement de travail, suivi de
+                tutoriel technique intégralement anglophone
               </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <a
+                href="https://www.udacity.com/"
+                class="block text-blue-600 hover:underline mt-4"
+                target="_blank"
+                >Udacity.com</a
+              >
             </div>
           </div>
-          <!-- React Native -->
-          <div class="card mb-3 container-fluid text-center">
-            <h3 class="card-header">React Native</h3>
-            <div class="badges">
-              <h6>Technologie :</h6>
-              <span class="badge rounded-pill d-inline-block p-0 m-0">HTML</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-secondary">CSS</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-success">PHP</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-danger">SYMFONY</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-warning">REACT JS</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-info">JavaScript</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-light">BOOTSTRAP</span>
-              <span class="badge rounded-pill d-inline-block p-0 m-0 bg-dark">MySQL</span>
-              <br />
-              <h6>Spécificités techniques :</h6>
-              <span class="badge d-inline-block p-0 m-0">MVC</span>
-              <span class="badge d-inline-block p-0 m-0 bg-secondary">POC</span>
-              <span class="badge d-inline-block p-0 m-0 bg-secondary">POO</span>
-              <span class="badge d-inline-block p-0 m-0 bg-success">Fetch / Axios</span>
-              <span class="badge d-inline-block p-0 m-0 bg-danger">API REST</span>
-              <span class="badge d-inline-block p-0 m-0 bg-warning">Déploiement</span>
-              <span class="badge d-inline-block p-0 m-0 bg-info">MédiaQueries</span>
-              <span class="badge d-inline-block p-0 m-0 bg-light">MySQL</span>
-              <span class="badge d-inline-block p-0 m-0 bg-dark">Linux</span>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">L'app dont vous êtes le héros !</h5>
-              <h6 class="card-subtitle text-muted">
-                Jeux d'aventure narrative
-              </h6>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200"
-              aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice"
-              viewBox="0 0 318 180" style="font-size: 1.125rem; text-anchor: middle">
-              <rect width="100%" height="100%" fill="#868e96"></rect>
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-            </svg>
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+          <!-- Fetch Démo -->
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img
+              src="./images/FetchDemo/fetchDemo.png"
+              alt="Project Image"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">Fetch Démo, Tips perso</h3>
+              <p class="text-gray-700">
+                Afin d'améliorer ma compréhension de certains fonctionnements,
+                je réalise parfois des applications minimalistes. Ici, j'utilise
+                JavaScript natif pour détailler l'utilisation de Fetch.
               </p>
+              <a href="#" class="block text-blue-600 hover:underline mt-4"
+                >Check it out! 🚀</a
+              >
             </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+          </div>
+          <!-- Afishon -->
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img
+              src="./images/afishon/cartFish.jpeg"
+              alt="Project Image"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">
+                Afishon, E-commerce d'articles de pêche, de la conception à la
+                livraison
+              </h3>
+              <p class="text-gray-700">
+                Projet E-commerce en cours de réalisation, application basé sur
+                le framework Symfony.
+              </p>
+              <p>
+                Actuellement en phase de conception du cahier des charges,
+                création de documentation.
+              </p>
+              <a href="#" class="block text-blue-600 hover:underline mt-4"
+                >Check it out! 🚀</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Mes Compétences -->
-    <section class="parts">
-      <div class="part">
-        <h3 class="text-center">Mes compétences</h3>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
-            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-            TEST
-          </div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar"
-            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
-            TEST
-          </div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar"
-            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-            TEST
-          </div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
-            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-            TEST
-          </div>
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-200 py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-8 text-center">Me contacter :</h2>
+        <div class="max-w-md mx-auto">
+          <form
+            action="https://formspree.io/f/xqkrgzgv"
+            method="post"
+            class="space-y-4"
+          >
+            <div>
+              <label for="name" class="block font-bold mb-2">Votre Nom</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
+                placeholder="Entrez votre Nom"
+                required
+              />
+            </div>
+            <div>
+              <label for="email" class="block font-bold mb-2"
+                >Votre Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
+                placeholder="Entrez votre email"
+                required
+              />
+            </div>
+            <div>
+              <label for="message" class="block font-bold mb-2"
+                >Votre Message</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
+                placeholder="Entrez votre message"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300"
+            >
+              ✉️ Envoyer
+            </button>
+          </form>
         </div>
       </div>
     </section>
-    <!-- Contact -->
-    <section class="parts">
-      <div class="part">
-        <h3 class="text-center">Pour me contacter</h3>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-4 text-center">
+        <p>
+          &copy; 2024 PortFolio Anthony Boutherin | All rights reserved |
+          Designed with ❤️ by Anthony Boutherin.
+        </p>
       </div>
-      <div class="contact-item">
-        <a class="nav-link contact-item-unit" href="mailto:anthony.boutherin@gmail.com">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="red" class="bi bi-envelope"
-            viewBox="0 0 16 16">
-            <path
-              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
-          </svg></a>
-        <a class="nav-link contact-item-unit" href="tel:+33769126988"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-            fill="green" class="bi bi-telephone" viewBox="0 0 16 16">
-            <path
-              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
-          </svg></a>
-      </div>
-
-    </section>
-  </main>
-  <!-- MAIN ENDS -->
-</body>
+    </footer>
+  </body>
 </html>
