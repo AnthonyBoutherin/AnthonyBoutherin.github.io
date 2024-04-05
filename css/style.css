@@ -1,0 +1,56 @@
+body {
+  width: 100vw;
+}
+
+.logoAb {
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  margin: 0.5em;
+  border-radius: 25%;
+}
+
+.navbar {
+  background-color: rgb(109, 164, 223, 0.8);
+  transition: 1.5s;
+}
+
+.navbar:hover {
+  background-color: rgb(109, 164, 223);
+  transition: 1.5s;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 0 1em;
+  transition: 1.5s;
+}
+
+.nav-link:hover {
+  transform: scale(1.5);
+  transition: 1.5s;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1021px) {
+  .logoAb {
+    right: 0;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    margin: 0.5em;
+  }
+}
