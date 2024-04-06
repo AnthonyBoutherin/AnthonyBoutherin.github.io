@@ -27,6 +27,7 @@ body {
   background-size: cover;
   transition: 1.5s;
   color: white;
+  font-weight: bolder;
 }
 
 .navbar:hover {
@@ -57,7 +58,6 @@ body {
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
-  transition: 1.5s;
   color: white;
 }
 
@@ -66,17 +66,19 @@ body {
   flex-direction: column;
 }
 
-/* .project-card {
+.project-card {
+  border: 3px solid white;
   transition: 1.5s;
-} */
+}
 
-/* .project-card:hover {
-  transform: scale(1.05);
+.project-card:hover {
+  border: 3px solid black;
   transition: 1.5s;
-} */
+}
 
 @media screen and (max-width: 1021px) {
   .logoAb {
+    height: 4em;
     right: 0;
   }
 
