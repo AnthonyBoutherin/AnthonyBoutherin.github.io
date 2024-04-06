@@ -6,6 +6,14 @@
     <title>PortFolio | Anthony Boutherin</title>
     <!-- Favicon -->
     <link href="./images/AB.jpeg" rel="icon" type="image/x-icon" />
+
+    <!-- Google Fonts Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Tailwind CSS -->
@@ -18,12 +26,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
+
+    <!-- Script -->
     <script src="./script/navbar.js" defer></script>
   </head>
-  <body id="home" class="bg-blue-600">
+
+  <!-- Body -->
+  <body id="home" class="bg-black">
     <a href="#home" class="logoAb z-10"
       ><img src="./images/logo_AB.jpeg" alt="logo AB" class="logoAb"
     /></a>
+
     <!-- Navigation -->
     <div
       class="py-4 px-2 lg:mx-4 xl:mx-12 fixed top-0 left-0 w-full z-8 navbar"
@@ -53,26 +66,26 @@
             >
               <a
                 href="#home"
-                class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-blue-500 hover:text-white sm:hover:bg-transparent rounded-lg"
+                class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-blue-600 hover:text-white sm:hover:bg-transparent rounded-lg"
               >
                 Accueil
               </a>
               <a
                 href="https://drive.google.com/file/d/1hGXz55Nsm3558zXwUvoB7sbtdDgslAJs/view?usp=sharing"
-                class="nav-link block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-blue-500 hover:text-white sm:hover:bg-transparent rounded-lg"
+                class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-blue-600 hover:text-white sm:hover:bg-transparent rounded-lg"
                 target="_blank"
               >
                 CV
               </a>
               <a
                 href="#projets"
-                class="nav-link block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-blue-500 hover:text-white sm:hover:bg-transparent rounded-lg"
+                class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-blue-600 hover:text-white sm:hover:bg-transparent rounded-lg"
               >
                 Projets
               </a>
               <a
                 href="#contact"
-                class="nav-link block lg:inline-block text-md font-bold text-gray-900 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-blue-500 hover:text-white sm:hover:bg-transparent rounded-lg"
+                class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-blue-600 hover:text-white sm:hover:bg-transparent rounded-lg"
               >
                 Contact
               </a>
@@ -85,7 +98,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
                   height="32"
-                  fill="black"
+                  fill="white"
                   class="bi bi-github"
                   viewBox="0 0 16 16"
                 >
@@ -140,16 +153,17 @@
         </nav>
       </div>
     </div>
+
     <!-- Header Section -->
     <header
-      class="py-20 bg-gradient-to-b from-blue-600 to-blue-500 text-center"
+      class="py-20 bg-gradient-to-b from-black-600 to-black-500 text-center"
     >
       <div class="container mx-auto px-4">
-        <h1 class="text-5xl font-bold text-white mb-4">
+        <h1 class="text-3xl font-bold text-white mb-4">
           Anthony Boutherin <br />
           Développeur Web full stack
         </h1>
-        <h2 class="text-5xl font-bold text-white mb-4">
+        <h2 class="text-3xl font-bold text-white mb-4">
           Bienvenue sur mon Portfolio !
         </h2>
         <p class="mt-2 text-lg text-gray-200">
@@ -158,21 +172,28 @@
         </p>
       </div>
     </header>
+
     <!-- Projects Section -->
     <section id="projets" class="py-16">
       <div class="container mx-auto px-4">
-        <h2 class="text-4xl font-bold mb-8 text-center">Mes Projets</h2>
+        <h2 class="text-3xl font-bold mb-8 text-center text-white">
+          Mes Projets
+        </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <!-- OUAA -->
-          <div class="bg-blue-200 rounded-lg shadow-md overflow-hidden">
+          <div
+            class="bg-black rounded-lg shadow-md overflow-hidden project-card"
+          >
             <img
               src="./images/ouaa/ouaa.jpg"
               alt="Project Image"
               class="w-full h-64 object-cover"
             />
             <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4">Once upon an app 1/2</h3>
-              <p class="text-gray-700">
+              <h3 class="text-2xl font-bold mb-4 text-white">
+                Once upon an app 1/2
+              </h3>
+              <p class="text-white">
                 Projet de fin de formation réalisé en équipe en suivant la
                 méthodologie Agile Scrum (rôle personnel Lead Dev Back). <br />
                 Projet amené à une version 2 après formation. <br />
@@ -188,27 +209,31 @@
                 de prompts, les images à l'aide de MidJourney et les textes à
                 l'aide de ChatGPT.
               </p>
-              <p>Visite back office sur demande (raison de sécurité)</p>
+              <p class="text-white">
+                Visite back office sur demande (raison de sécurité)
+              </p>
               <a
                 href="https://onceuponanapp.fr"
-                class="block text-blue-600 hover:underline mt-4"
+                class="block text-white hover:underline mt-4"
                 target="_blank"
                 >Check it out! 🚀</a
               >
             </div>
           </div>
           <!-- Back Office OUAA -->
-          <div class="bg-blue-200 rounded-lg shadow-md overflow-hidden">
+          <div
+            class="bg-black rounded-lg shadow-md overflow-hidden project-card"
+          >
             <img
               src="./images/ouaa/backoffice_ouaa.jpg"
               alt="Project Image"
               class="w-full h-64 object-cover"
             />
             <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4">
+              <h3 class="text-2xl font-bold mb-4 text-white">
                 Back Office : Once upon an app 2/2
               </h3>
-              <p class="text-gray-700">
+              <p class="text-white">
                 Projet de fin de formation réalisé en équipe en suivant la
                 méthodologie Agile Scrum (rôle personnel Lead Dev Back). <br />
                 Projet amené à une version 2 après formation. <br />
@@ -224,45 +249,53 @@
                 de prompts, les images à l'aide de MidJourney et les textes à
                 l'aide de ChatGPT.
               </p>
-              <p>Visite back office sur demande (raison de sécurité)</p>
+              <p class="text-white">
+                Visite back office sur demande (raison de sécurité)
+              </p>
               <a
                 href="https://backoffice.onceuponanapp.fr"
-                class="block text-blue-600 hover:underline mt-4"
+                class="block text-white hover:underline mt-4"
                 target="_blank"
                 >Visite du back office sur demande (raison de sécurité)</a
               >
             </div>
           </div>
           <!-- O'flix -->
-          <div class="bg-blue-200 rounded-lg shadow-md overflow-hidden">
+          <div
+            class="bg-black rounded-lg shadow-md overflow-hidden project-card"
+          >
             <img
               src="https://picsum.photos/seed/picsum/400/400"
               alt="Project Image"
               class="w-full h-64 object-cover"
             />
             <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4">O'Flix, la cinémathèque</h3>
-              <p class="text-gray-700">
+              <h3 class="text-2xl font-bold mb-4 text-white">
+                O'Flix, la cinémathèque
+              </h3>
+              <p class="text-white">
                 Projet réalisé lors de la spécialisation Symfony avec O'clock.
                 Il s'agit d'une application réunissant des films.
               </p>
-              <a href="#" class="block text-blue-600 hover:underline mt-4"
+              <a href="#" class="block text-white hover:underline mt-4"
                 >Check it out! 🚀</a
               >
             </div>
           </div>
           <!-- Dice Roller -->
-          <div class="bg-blue-200 rounded-lg shadow-md overflow-hidden">
+          <div
+            class="bg-black rounded-lg shadow-md overflow-hidden project-card"
+          >
             <img
               src="./images/diceRoller/kotlin_dice_roller.gif"
               alt="Project Image"
               class="w-full h-64 object-cover"
             />
             <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4">
+              <h3 class="text-2xl font-bold mb-4 text-white">
                 Dice Roller, Kotlin, How does it work?
               </h3>
-              <p class="text-gray-700">
+              <p class="text-white">
                 Projet de découverte Kotlin sur Android Studio, réalisé en
                 autonomie. <br />
                 Paramétrage d'un nouvel environnement de travail, suivi de
@@ -270,52 +303,58 @@
               </p>
               <a
                 href="https://www.udacity.com/"
-                class="block text-blue-600 hover:underline mt-4"
+                class="block text-white hover:underline mt-4"
                 target="_blank"
                 >Udacity.com</a
               >
             </div>
           </div>
           <!-- Fetch Démo -->
-          <div class="bg-blue-200 rounded-lg shadow-md overflow-hidden">
+          <div
+            class="bg-black rounded-lg shadow-md overflow-hidden project-card"
+          >
             <img
               src="./images/FetchDemo/fetchDemo.png"
               alt="Project Image"
               class="w-full h-64 object-cover"
             />
             <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4">Fetch Démo, Tips perso</h3>
-              <p class="text-gray-700">
+              <h3 class="text-2xl font-bold mb-4 text-white">
+                Fetch Démo, Tips perso
+              </h3>
+              <p class="text-white">
                 Afin d'améliorer ma compréhension de certains fonctionnements,
                 je réalise parfois des applications minimalistes. Ici, j'utilise
                 JavaScript natif pour détailler l'utilisation de Fetch.
               </p>
-              <a href="#" class="block text-blue-600 hover:underline mt-4"
+              <a href="#" class="block text-white hover:underline mt-4"
                 >Check it out! 🚀</a
               >
             </div>
           </div>
           <!-- Afishon -->
-          <div class="bg-blue-200 rounded-lg shadow-md overflow-hidden">
+          <div
+            class="bg-black rounded-lg shadow-md overflow-hidden project-card"
+          >
             <img
               src="./images/afishon/cartFish.jpeg"
               alt="Project Image"
               class="w-full h-64 object-cover"
             />
             <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4">
+              <h3 class="text-2xl font-bold mb-4 text-white">
                 Afishon, E-commerce d'articles de pêche, de la conception à la
                 livraison
               </h3>
-              <p class="text-gray-700">
+              <p class="text-white">
                 Projet E-commerce en cours de réalisation, application basé sur
                 le framework Symfony.
               </p>
-              <p>
+              <p class="text-white">
                 Actuellement en phase de conception du cahier des charges,
                 création de documentation.
               </p>
-              <a href="#" class="block text-blue-600 hover:underline mt-4"
+              <a href="#" class="block text-white hover:underline mt-4"
                 >Check it out! 🚀</a
               >
             </div>
@@ -323,10 +362,11 @@
         </div>
       </div>
     </section>
+
     <!-- Contact Section -->
-    <section id="contact" class="bg-blue-300 py-16">
+    <section id="contact" class="bg-black py-16 text-white">
       <div class="container mx-auto px-4">
-        <h2 class="text-4xl font-bold mb-8 text-center">Me contacter :</h2>
+        <h2 class="text-3xl font-bold mb-8 text-center">Me contacter :</h2>
         <div class="max-w-md mx-auto">
           <form
             action="https://formspree.io/f/xqkrgzgv"
@@ -380,8 +420,9 @@
         </div>
       </div>
     </section>
+
     <!-- Footer -->
-    <footer class="bg-blue-600 text-white py-8">
+    <footer class="bg-black-600 text-white py-8">
       <div class="container mx-auto px-4 text-center">
         <p>
           &copy; 2024 PortFolio Anthony Boutherin | All rights reserved |

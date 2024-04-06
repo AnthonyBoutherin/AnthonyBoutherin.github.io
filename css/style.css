@@ -1,5 +1,14 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
+  font-size: 1em;
   width: 100vw;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .logoAb {
@@ -11,12 +20,18 @@ body {
 }
 
 .navbar {
-  background-color: rgb(109, 164, 223, 0.8);
+  background-color: rgb(0, 0, 0, 0.8);
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
   transition: 1.5s;
+  color: white;
 }
 
 .navbar:hover {
-  background-color: rgb(109, 164, 223);
+  background-color: rgba(255, 255, 255, 0.486);
+  color: black;
   transition: 1.5s;
 }
 
@@ -36,10 +51,29 @@ body {
   transition: 1.5s;
 }
 
+#contact {
+  background-color: rgb(0, 0, 0, 0.8);
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 1.5s;
+  color: white;
+}
+
 .form {
   display: flex;
   flex-direction: column;
 }
+
+/* .project-card {
+  transition: 1.5s;
+} */
+
+/* .project-card:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+} */
 
 @media screen and (max-width: 1021px) {
   .logoAb {
