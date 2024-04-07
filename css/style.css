@@ -11,12 +11,24 @@ body {
   background-size: cover;
 }
 
+header {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
 .logoAb {
   height: 6rem;
   position: fixed;
   top: 0;
   margin: 0.5em;
   border-radius: 25%;
+}
+
+.portraitAb {
+  height: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
 }
 
 .navbar {
@@ -80,6 +92,10 @@ body {
   .logoAb {
     height: 4em;
     right: 0;
+  }
+
+  .portraitAb {
+    height: 4em;
   }
 
   .navbar-list {
