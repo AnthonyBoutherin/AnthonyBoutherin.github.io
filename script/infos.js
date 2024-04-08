@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   toggleInfos(".infos", ".card-content");
-  toggleInfos(".infos-2", ".card-content-2");
+  for (let i = 2; i <= 9; i++) {
+    toggleInfos(".infos-" + i, ".card-content-" + i);
+  }
 });
 
 function toggleInfos(btnSelector, targetSelector) {

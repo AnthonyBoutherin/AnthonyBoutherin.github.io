@@ -1,261 +1,154 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <!-- Head -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PortFolio | Anthony Boutherin</title>
-    <!-- Favicon -->
-    <link href="./images/AB.jpeg" rel="icon" type="image/x-icon" />
+<!-- Head -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PortFolio | Anthony Boutherin</title>
+  <!-- Favicon -->
+  <link href="./images/AB.jpeg" rel="icon" type="image/x-icon" />
 
-    <!-- Google Fonts Roboto-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- Tailwind CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome for icons -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet"
-    />
+  <!-- Google Fonts Roboto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 
-    <!-- Script -->
-    <script src="./script/navbar.js" defer></script>
-    <script src="./script/infos.js" defer></script>
-  </head>
+  <!-- Script -->
+  <script src="./script/navbar.js" defer></script>
+  <script src="./script/infos.js" defer></script>
+</head>
 
-  <!-- Body -->
-  <body id="home" class="bg-black">
-    <a href="#home" class="logoAb z-10"
-      ><img src="./images/logo_AB.jpeg" alt="logo AB" class="logoAb"
-    /></a>
+<!-- Body -->
+<body id="home" class="bg-black">
+  <a href="#home" class="logoAb z-10"><img src="./images/logo_AB.jpeg" alt="logo AB" class="logoAb" /></a>
 
-    <!-- Navigation -->
-    <div
-      class="py-4 px-2 lg:mx-4 xl:mx-12 fixed top-0 left-0 w-full z-8 navbar"
-    >
-      <div class="navbar-div">
-        <nav class="flex items-center justify-between flex-wrap">
-          <div class="block lg:hidden">
-            <button
-              class="navbar-burger flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white"
-            >
-              <svg
-                class="fill-current h-6 w-6 text-white-700"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>Menu</title>
-                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-              </svg>
-            </button>
+  <!-- Navigation -->
+  <div class="py-4 px-2 lg:mx-4 xl:mx-12 fixed top-0 left-0 w-full z-8 navbar">
+    <div class="navbar-div">
+      <nav class="flex items-center justify-between flex-wrap">
+        <div class="block lg:hidden">
+          <button
+            class="navbar-burger flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
+            <svg class="fill-current h-6 w-6 text-white-700" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div id="main-nav" class="w-full flex-grow lg:flex items-center lg:w-auto hidden">
+          <div class="text-sm lg:flex-grow mt-2 animated jackinthebox xl:mx-8 navbar-list">
+            <a href="#home"
+              class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-black-600 hover:text-white sm:hover:bg-transparent rounded-lg">
+              Accueil
+            </a>
+            <a href="https://drive.google.com/file/d/1hGXz55Nsm3558zXwUvoB7sbtdDgslAJs/view?usp=sharing"
+              class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-black-600 hover:text-white sm:hover:bg-transparent rounded-lg"
+              target="_blank">
+              CV
+            </a>
+            <a href="#projets"
+              class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-black-600 hover:text-white sm:hover:bg-transparent rounded-lg">
+              Projets
+            </a>
+            <a href="#contact"
+              class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-black-600 hover:text-white sm:hover:bg-transparent rounded-lg">
+              Contact
+            </a>
+
+            <a class="nav-link-github" href="https://github.com/AnthonyBoutherin" target="_blank"><svg
+                xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-github"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+              </svg></a>
+            <a class="nav-link" href="https://www.linkedin.com/in/anthony-boutherin/" target="_blank"><svg
+                xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="blue" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+              </svg></a>
+            <a class="nav-link" href="mailto:anthony.boutherin@gmail.com"><svg xmlns="http://www.w3.org/2000/svg"
+                width="32" height="32" fill="red" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+              </svg></a>
+            <a class="nav-link last" href="tel:+33769126988"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                height="32" fill="green" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+              </svg></a>
           </div>
-          <div
-            id="main-nav"
-            class="w-full flex-grow lg:flex items-center lg:w-auto hidden"
-          >
-            <div
-              class="text-sm lg:flex-grow mt-2 animated jackinthebox xl:mx-8 navbar-list"
-            >
-              <a
-                href="#home"
-                class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-black-600 hover:text-white sm:hover:bg-transparent rounded-lg"
-              >
-                Accueil
-              </a>
-              <a
-                href="https://drive.google.com/file/d/1hGXz55Nsm3558zXwUvoB7sbtdDgslAJs/view?usp=sharing"
-                class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-black-600 hover:text-white sm:hover:bg-transparent rounded-lg"
-                target="_blank"
-              >
-                CV
-              </a>
-              <a
-                href="#projets"
-                class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-black-600 hover:text-white sm:hover:bg-transparent rounded-lg"
-              >
-                Projets
-              </a>
-              <a
-                href="#contact"
-                class="nav-link block lg:inline-block text-md font-bold text-white-500 sm:hover:border-indigo-400 hover:text-orange-500 mx-2 focus:text-white-500 p-1 hover:bg-black-600 hover:text-white sm:hover:bg-transparent rounded-lg"
-              >
-                Contact
-              </a>
-
-              <a
-                class="nav-link-github"
-                href="https://github.com/AnthonyBoutherin"
-                target="_blank"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  fill="white"
-                  class="bi bi-github"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
-                  /></svg
-              ></a>
-              <a
-                class="nav-link"
-                href="https://www.linkedin.com/in/anthony-boutherin/"
-                target="_blank"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  fill="blue"
-                  class="bi bi-linkedin"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
-                  /></svg
-              ></a>
-              <a class="nav-link" href="mailto:anthony.boutherin@gmail.com"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  fill="red"
-                  class="bi bi-envelope"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
-                  /></svg
-              ></a>
-              <a class="nav-link last" href="tel:+33769126988"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  fill="green"
-                  class="bi bi-telephone"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
-                  /></svg
-              ></a>
-            </div>
-          </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </div>
+  </div>
 
-    <!-- Header Section -->
-    <header
-      class="py-20 bg-gradient-to-b from-black-600 to-black-500 text-center"
-    >
-      <div class="container mx-auto px-4">
-        <h1 class="text-3xl font-bold text-white mb-6">
-          Bonjour et Bienvenue sur mon Portfolio !
-        </h1>
-        <p class="mt-2 text-lg text-gray-200">
-          Je m'appelle <strong>Anthony Boutherin</strong>, récemment diplômé du
-          titre professionnel de Développeur web et web mobile à la suite d'une
-          reconversion.
-        </p>
-        <p class="mt-2 text-lg text-gray-200">
-          Aujourd'hui prêt à entamer une nouvelle carrière professionnelle, je
-          souhaite mettre à disposition mes compétences de Développeur
-          <strong>sur un poste</strong> ou bien via une
-          <strong>alternance de Concepteur Développeur d'Applications.</strong>
-        </p>
-        <p class="mt-2 text-lg text-gray-200">
-          Je suis une personne pouvant porter plusieurs chapeaux, j'aime les
-          challenges de ce métier et suis toujours enthousiaste et ouvert
-          d'esprit à de nouvelles découvertes.
-        </p>
-        <p class="mt-2 text-lg text-gray-200">
-          N'hésitez pas à prendre contact avec moi pour de plus amples
-          informations !
-        </p>
-        <p class="mt-2 text-lg font-bold text-gray-200">Bonne visite !</p>
-        <img
-          src="./images/portrait-AB.png"
-          alt="portrait Anthony Boutherin"
-          class="portraitAb"
-        />
-      </div>
-    </header>
+  <!-- Header Section -->
+  <header class="py-20 bg-gradient-to-b from-black-600 to-black-500 text-center">
+    <div class="container mx-auto px-4">
+      <h1 class="text-3xl font-bold text-white mb-6">
+        Bonjour et Bienvenue sur mon Portfolio !
+      </h1>
+      <p class="mt-2 text-lg text-gray-200">
+        Je m'appelle <strong>Anthony Boutherin</strong>, récemment diplômé du
+        titre professionnel de Développeur web et web mobile à la suite d'une
+        reconversion.
+      </p>
+      <p class="mt-2 text-lg text-gray-200">
+        Aujourd'hui prêt à entamer une nouvelle carrière professionnelle, je
+        souhaite mettre à disposition mes compétences de Développeur
+        <strong>sur un poste</strong> ou bien via une
+        <strong>alternance de Concepteur Développeur d'Applications.</strong>
+      </p>
+      <p class="mt-2 text-lg text-gray-200">
+        Je suis une personne pouvant porter plusieurs chapeaux, j'aime les
+        challenges de ce métier et suis toujours enthousiaste et ouvert
+        d'esprit à de nouvelles découvertes.
+      </p>
+      <p class="mt-2 text-lg text-gray-200">
+        N'hésitez pas à prendre contact avec moi pour de plus amples
+        informations !
+      </p>
+      <p class="mt-2 text-lg font-bold text-gray-200">Bonne visite !</p>
+      <img src="./images/portrait-AB.png" alt="portrait Anthony Boutherin" class="portraitAb" />
+    </div>
+  </header>
 
-    <!-- Projects Section -->
-    <section id="projets" class="py-16">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-8 text-center text-white">
-          Mes Projets
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+  <!-- Projects Section -->
+  <section id="projets" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center text-white">
+        Mes Projets
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <!-- OUAA -->
-        <div
-          class="bg-black rounded-lg shadow-md overflow-hidden project-card"
-        >
-          <img
-            src="./images/ouaa/ouaa.jpg"
-            alt="Project Image"
-            class="w-full h-64 object-cover"
-          />
+        <div class="bg-black rounded-lg shadow-md overflow-hidden project-card">
+          <img src="./images/ouaa/ouaa.jpg" alt="Project Image" class="w-full h-64 object-cover" />
           <div class="p-6">
             <h3 class="text-2xl font-bold mb-4 text-white">
               Jeu narratif : Once upon an app
             </h3>
             <div class="flex flex-wrap items-center justify-center">
-              <svg
-                class="infos"
-                viewBox="0 0 24 24"
-                width="64"
-                height="64"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="white"
-              >
+              <svg class="infos" viewBox="0 0 24 24" width="64" height="64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="white">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                 <g id="SVGRepo_iconCarrier">
                   <g clip-path="url(#clip0_429_11160)">
-                    <circle
-                      cx="12"
-                      cy="11.9999"
-                      r="9"
-                      stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></circle>
-                    <rect
-                      x="12"
-                      y="8"
-                      width="0.01"
-                      height="0.01"
-                      stroke="white"
-                      stroke-width="3.75"
-                      stroke-linejoin="round"
-                    ></rect>
-                    <path
-                      d="M12 12V16"
-                      stroke="white"
-                      stroke-width="2.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
+                    <circle cx="12" cy="11.9999" r="9" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></circle>
+                    <rect x="12" y="8" width="0.01" height="0.01" stroke="white" stroke-width="3.75"
+                      stroke-linejoin="round"></rect>
+                    <path d="M12 12V16" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
                   </g>
                   <defs>
                     <clipPath id="clip0_429_11160">
@@ -287,165 +180,86 @@
               </div>
             </div>
             <div class="flex flex-wrap items-center justify-center">
-              <a
-                href="https://onceuponanapp.fr"
-                class="block text-white hover:underline mt-4"
-                target="_blank"
-                ><svg
-                  height="64"
-                  width="64"
-                  version="1.1"
-                  id="Capa_1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  viewBox="0 0 53.626 53.626"
-                  xml:space="preserve"
-                  fill="white"
-                  stroke="white"
-                >
+              <a href="https://onceuponanapp.fr" class="block text-white hover:underline mt-4" target="_blank"><svg
+                  height="64" width="64" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 53.626 53.626" xml:space="preserve"
+                  fill="white" stroke="white">
                   <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                   <g id="SVGRepo_iconCarrier">
                     <g>
-                      <path
-                        style="fill: #010002"
-                        d="M48.831,15.334c-7.083-11.637-17.753-3.541-17.753-3.541c-0.692,0.523-1.968,0.953-2.835,0.955 l-2.858,0.002c-0.867,0.001-2.143-0.429-2.834-0.952c0,0-10.671-8.098-17.755,3.539C-2.286,26.97,0.568,39.639,0.568,39.639 c0.5,3.102,2.148,5.172,5.258,4.912c3.101-0.259,9.832-8.354,9.832-8.354c0.556-0.667,1.721-1.212,2.586-1.212l17.134-0.003 c0.866,0,2.03,0.545,2.585,1.212c0,0,6.732,8.095,9.838,8.354c3.106,0.26,4.758-1.812,5.255-4.912 C53.055,39.636,55.914,26.969,48.831,15.334z M20.374,24.806H16.7v3.541c0,0-0.778,0.594-1.982,0.579 c-1.202-0.018-1.746-0.648-1.746-0.648v-3.471h-3.47c0,0-0.433-0.444-0.549-1.613c-0.114-1.169,0.479-2.114,0.479-2.114h3.675 v-3.674c0,0,0.756-0.405,1.843-0.374c1.088,0.034,1.885,0.443,1.885,0.443l-0.015,3.604h3.47c0,0,0.606,0.778,0.656,1.718 C20.996,23.738,20.374,24.806,20.374,24.806z M37.226,28.842c-1.609,0-2.906-1.301-2.906-2.908c0-1.61,1.297-2.908,2.906-2.908 c1.602,0,2.909,1.298,2.909,2.908C40.135,27.542,38.828,28.842,37.226,28.842z M37.226,20.841c-1.609,0-2.906-1.3-2.906-2.907 c0-1.61,1.297-2.908,2.906-2.908c1.602,0,2.909,1.298,2.909,2.908C40.135,19.542,38.828,20.841,37.226,20.841z M44.468,25.136 c-1.609,0-2.906-1.3-2.906-2.908c0-1.609,1.297-2.908,2.906-2.908c1.602,0,2.909,1.299,2.909,2.908 C47.377,23.836,46.07,25.136,44.468,25.136z"
-                      ></path>
+                      <path style="fill: #010002"
+                        d="M48.831,15.334c-7.083-11.637-17.753-3.541-17.753-3.541c-0.692,0.523-1.968,0.953-2.835,0.955 l-2.858,0.002c-0.867,0.001-2.143-0.429-2.834-0.952c0,0-10.671-8.098-17.755,3.539C-2.286,26.97,0.568,39.639,0.568,39.639 c0.5,3.102,2.148,5.172,5.258,4.912c3.101-0.259,9.832-8.354,9.832-8.354c0.556-0.667,1.721-1.212,2.586-1.212l17.134-0.003 c0.866,0,2.03,0.545,2.585,1.212c0,0,6.732,8.095,9.838,8.354c3.106,0.26,4.758-1.812,5.255-4.912 C53.055,39.636,55.914,26.969,48.831,15.334z M20.374,24.806H16.7v3.541c0,0-0.778,0.594-1.982,0.579 c-1.202-0.018-1.746-0.648-1.746-0.648v-3.471h-3.47c0,0-0.433-0.444-0.549-1.613c-0.114-1.169,0.479-2.114,0.479-2.114h3.675 v-3.674c0,0,0.756-0.405,1.843-0.374c1.088,0.034,1.885,0.443,1.885,0.443l-0.015,3.604h3.47c0,0,0.606,0.778,0.656,1.718 C20.996,23.738,20.374,24.806,20.374,24.806z M37.226,28.842c-1.609,0-2.906-1.301-2.906-2.908c0-1.61,1.297-2.908,2.906-2.908 c1.602,0,2.909,1.298,2.909,2.908C40.135,27.542,38.828,28.842,37.226,28.842z M37.226,20.841c-1.609,0-2.906-1.3-2.906-2.907 c0-1.61,1.297-2.908,2.906-2.908c1.602,0,2.909,1.298,2.909,2.908C40.135,19.542,38.828,20.841,37.226,20.841z M44.468,25.136 c-1.609,0-2.906-1.3-2.906-2.908c0-1.609,1.297-2.908,2.906-2.908c1.602,0,2.909,1.299,2.909,2.908 C47.377,23.836,46.07,25.136,44.468,25.136z">
+                      </path>
                     </g>
-                  </g></svg
-              ></a>
-              <a
-                class="m-4"
-                href="https://github.com/Gauthierlaplace/Once-upon-an-app-front"
-                target="_blank"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="64"
-                  height="64"
-                  fill="white"
-                  class="bi bi-github"
-                  viewBox="0 0 16 16"
-                >
+                  </g>
+                </svg></a>
+              <a class="m-4" href="https://github.com/Gauthierlaplace/Once-upon-an-app-front" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-github"
+                  viewBox="0 0 16 16">
                   <path
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
-                  /></svg
-              ></a>
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg></a>
             </div>
           </div>
         </div>
-        <!-- Back Office OUAA -->
-        <div
-            class="bg-black rounded-lg shadow-md overflow-hidden project-card"
-          >
-            <img
-              src="./images/ouaa/backoffice_ouaa.jpg"
-              alt="Project Image"
-              class="w-full h-64 object-cover"
-            />
-            <div class="p-6">
-              <h3 class="text-2xl font-bold mb-4 text-white">
-                Back Office : Once upon an app
-              </h3>
-              <div class="flex flex-wrap items-center justify-center">
-                <svg
-                  class="infos-2"
-                  viewBox="0 0 24 24"
-                  width="64"
-                  height="64"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  stroke="white"
-                >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <g clip-path="url(#clip0_429_11160)">
-                      <circle
-                        cx="12"
-                        cy="11.9999"
-                        r="9"
-                        stroke="white"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></circle>
-                      <rect
-                        x="12"
-                        y="8"
-                        width="0.01"
-                        height="0.01"
-                        stroke="white"
-                        stroke-width="3.75"
-                        stroke-linejoin="round"
-                      ></rect>
-                      <path
-                        d="M12 12V16"
-                        stroke="white"
-                        stroke-width="2.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></path>
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_429_11160">
-                        <rect width="24" height="24" fill="white"></rect>
-                      </clipPath>
-                    </defs>
+        <!-- Back Office OUAA 2-->
+        <div class="bg-black rounded-lg shadow-md overflow-hidden project-card">
+          <img src="./images/ouaa/backoffice_ouaa.jpg" alt="Project Image" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-4 text-white">
+              Back Office : Once upon an app
+            </h3>
+            <div class="flex flex-wrap items-center justify-center">
+              <svg class="infos-2" viewBox="0 0 24 24" width="64" height="64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="white">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g clip-path="url(#clip0_429_11160)">
+                    <circle cx="12" cy="11.9999" r="9" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></circle>
+                    <rect x="12" y="8" width="0.01" height="0.01" stroke="white" stroke-width="3.75"
+                      stroke-linejoin="round"></rect>
+                    <path d="M12 12V16" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
                   </g>
-                </svg>
-                <div class="card-content-2" hidden>
-              <p class="text-white">
-                Projet de fin de formation réalisé en équipe en suivant la
-                méthodologie Agile Scrum (rôle personnel Lead Dev Back). <br />
-                Projet amené à une version 2 après formation. <br />
-                Jeu narratif inspiré des
-                <em>Livres dont vous êtes le héros</em>. <br />2 applications :
-                <br />
-                - ReactJS, le jeu, accès public. <br />
-                - PHP framework Symfony, back office (gestion utilisateur et
-                contenu de jeu*). <br />
-                - API REST, algorithme de jeu (histoire, système de combat,
-                système d'inventaire, etc.). <br />
-                * Contenu de jeu généré par Intelligence Artificielle à l'aide
-                de prompts, les images à l'aide de MidJourney et les textes à
-                l'aide de ChatGPT.
-              </p>
+                  <defs>
+                    <clipPath id="clip0_429_11160">
+                      <rect width="24" height="24" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </g>
+              </svg>
+              <div class="card-content-2" hidden>
+                <p class="text-white">
+                  Projet de fin de formation réalisé en équipe en suivant la
+                  méthodologie Agile Scrum (rôle personnel Lead Dev Back). <br />
+                  Projet amené à une version 2 après formation. <br />
+                  Jeu narratif inspiré des
+                  <em>Livres dont vous êtes le héros</em>. <br />2 applications :
+                  <br />
+                  - ReactJS, le jeu, accès public. <br />
+                  - PHP framework Symfony, back office (gestion utilisateur et
+                  contenu de jeu*). <br />
+                  - API REST, algorithme de jeu (histoire, système de combat,
+                  système d'inventaire, etc.). <br />
+                  * Contenu de jeu généré par Intelligence Artificielle à l'aide
+                  de prompts, les images à l'aide de MidJourney et les textes à
+                  l'aide de ChatGPT.
+                </p>
               </div>
               <p class="text-white font-bold text-center m-3">
                 Visite back office ou code review sur demande (raison de
                 sécurité)
               </p>
               <div class="flex flex-wrap items-center justify-center">
-                <a
-                  href="https://backoffice.onceuponanapp.fr"
-                  class="block text-white hover:underline mt-4"
-                  target="_blank"
-                  ><svg
-                    height="64"
-                    width="64"
-                    version="1.1"
-                    id="_x32_"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    viewBox="0 0 512 512"
-                    xml:space="preserve"
-                    fill="white"
-                    stroke="white"
-                  >
+                <a href="https://backoffice.onceuponanapp.fr" class="block text-white hover:underline mt-4"
+                  target="_blank"><svg height="64" width="64" version="1.1" id="_x32_"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"
+                    xml:space="preserve" fill="white" stroke="white">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">
                       <style type="text/css">
                         .st0 {
@@ -453,123 +267,55 @@
                         }
                       </style>
                       <g>
-                        <path
-                          class="st0"
-                          d="M277.028,262.753l-26.612-2.882c-3.641-0.394-6.72-2.788-8.118-6.172c-0.017-0.04-0.034-0.081-0.05-0.121 c-1.403-3.383-0.92-7.252,1.376-10.105l16.78-20.855c3.164-3.932,2.857-9.616-0.712-13.185l-31.411-31.411 c-3.569-3.569-9.252-3.876-13.185-0.712l-20.864,16.787c-2.846,2.29-6.704,2.776-10.082,1.386c-0.037-0.015-0.074-0.03-0.111-0.045 c-3.396-1.394-5.799-4.478-6.194-8.128l-2.883-26.624c-0.543-5.018-4.779-8.82-9.826-8.82h-44.422c-5.047,0-9.283,3.802-9.826,8.82 l-2.883,26.624c-0.395,3.649-2.799,6.734-6.195,8.128c-0.037,0.015-0.074,0.03-0.11,0.045c-3.378,1.391-7.236,0.904-10.082-1.386 L70.752,177.31c-3.932-3.164-9.616-2.857-13.184,0.712l-31.411,31.411c-3.569,3.569-3.876,9.253-0.712,13.185l16.78,20.855 c2.296,2.854,2.779,6.722,1.376,10.105c-0.017,0.04-0.033,0.081-0.05,0.121c-1.399,3.384-4.477,5.778-8.118,6.172L8.82,262.753 C3.802,263.296,0,267.532,0,272.579v44.422c0,5.047,3.802,9.283,8.82,9.826l26.612,2.881c3.641,0.394,6.72,2.788,8.118,6.172 c0.017,0.04,0.033,0.081,0.05,0.121c1.403,3.383,0.92,7.252-1.376,10.106l-16.78,20.855c-3.164,3.932-2.857,9.616,0.712,13.185 l31.411,31.411c3.569,3.569,9.253,3.876,13.185,0.712l20.864-16.787c2.846-2.291,6.704-2.777,10.082-1.386 c0.037,0.015,0.074,0.03,0.111,0.045c3.396,1.394,5.799,4.478,6.194,8.128l2.883,26.624c0.543,5.018,4.779,8.82,9.826,8.82h44.422 c5.047,0,9.283-3.802,9.826-8.82l2.883-26.624c0.395-3.649,2.798-6.734,6.194-8.128c0.037-0.015,0.074-0.03,0.11-0.045 c3.378-1.391,7.236-0.905,10.083,1.386l20.864,16.787c3.932,3.164,9.616,2.857,13.185-0.712l31.411-31.411 c3.569-3.569,3.875-9.253,0.712-13.185l-16.78-20.855c-2.296-2.853-2.779-6.722-1.376-10.106c0.016-0.04,0.033-0.08,0.05-0.121 c1.399-3.384,4.477-5.778,8.118-6.172l26.612-2.881c5.017-0.544,8.82-4.78,8.82-9.826v-44.422 C285.848,267.532,282.046,263.296,277.028,262.753z M142.924,339.349c-24.609,0-44.559-19.95-44.559-44.559 c0-24.609,19.95-44.559,44.559-44.559s44.559,19.95,44.559,44.559C187.483,319.399,167.533,339.349,142.924,339.349z"
-                        ></path>
-                        <path
-                          class="st0"
-                          d="M507.469,218.212L489.2,203.785c-2.91-2.298-4.526-5.821-4.528-9.53c0-0.039,0-0.078,0-0.118 c-0.006-3.717,1.611-7.249,4.528-9.552l18.269-14.428c4.184-3.304,5.664-8.985,3.624-13.91l-8.025-19.374 c-2.04-4.926-7.104-7.896-12.398-7.274l-23.12,2.716c-3.692,0.434-7.333-0.92-9.956-3.553c-0.027-0.028-0.055-0.056-0.083-0.083 c-2.622-2.624-3.97-6.258-3.537-9.941l2.716-23.119c0.622-5.294-2.349-10.358-7.274-12.398l-19.374-8.024 c-4.925-2.04-10.606-0.56-13.91,3.623l-14.428,18.268c-2.299,2.911-5.822,4.526-9.53,4.528c-0.04,0-0.079,0-0.118,0 c-3.716,0.006-7.248-1.611-9.552-4.528l-14.428-18.269c-3.304-4.184-8.986-5.664-13.911-3.624l-19.374,8.025 c-4.925,2.04-7.896,7.104-7.274,12.399l2.716,23.12c0.434,3.691-0.92,7.332-3.553,9.956c-0.028,0.028-0.056,0.056-0.084,0.084 c-2.624,2.622-6.257,3.97-9.941,3.537l-23.119-2.716c-5.295-0.622-10.358,2.349-12.398,7.274l-8.025,19.374 c-2.04,4.925-0.56,10.607,3.624,13.911l18.268,14.427c2.911,2.299,4.526,5.821,4.528,9.53c0,0.04,0,0.079,0,0.118 c0.007,3.717-1.611,7.249-4.528,9.552l-18.269,14.428c-4.184,3.304-5.664,8.985-3.623,13.91l8.024,19.374 c2.04,4.925,7.104,7.896,12.398,7.274l23.121-2.716c3.691-0.434,7.332,0.92,9.956,3.553c0.028,0.028,0.055,0.056,0.083,0.083 c2.622,2.624,3.97,6.257,3.537,9.941l-2.716,23.12c-0.622,5.295,2.349,10.358,7.274,12.398l19.374,8.025 c4.925,2.04,10.606,0.56,13.911-3.624l14.427-18.268c2.299-2.911,5.821-4.526,9.53-4.528c0.039,0,0.078,0,0.118,0 c3.716-0.007,7.249,1.611,9.552,4.528l14.428,18.269c3.304,4.184,8.985,5.664,13.911,3.624l19.374-8.025 c4.925-2.04,7.896-7.104,7.274-12.398l-2.716-23.12c-0.434-3.691,0.92-7.333,3.553-9.956c0.028-0.028,0.056-0.056,0.084-0.083 c2.624-2.621,6.257-3.97,9.941-3.537l23.12,2.716c5.295,0.622,10.358-2.349,12.398-7.274l8.025-19.374 C513.132,227.198,511.653,221.516,507.469,218.212z M403.948,228.701c-18.584,7.698-39.89-1.127-47.588-19.712 s1.128-39.89,19.712-47.588c18.584-7.698,39.89,1.127,47.588,19.712C431.357,199.697,422.532,221.004,403.948,228.701z"
-                        ></path>
+                        <path class="st0"
+                          d="M277.028,262.753l-26.612-2.882c-3.641-0.394-6.72-2.788-8.118-6.172c-0.017-0.04-0.034-0.081-0.05-0.121 c-1.403-3.383-0.92-7.252,1.376-10.105l16.78-20.855c3.164-3.932,2.857-9.616-0.712-13.185l-31.411-31.411 c-3.569-3.569-9.252-3.876-13.185-0.712l-20.864,16.787c-2.846,2.29-6.704,2.776-10.082,1.386c-0.037-0.015-0.074-0.03-0.111-0.045 c-3.396-1.394-5.799-4.478-6.194-8.128l-2.883-26.624c-0.543-5.018-4.779-8.82-9.826-8.82h-44.422c-5.047,0-9.283,3.802-9.826,8.82 l-2.883,26.624c-0.395,3.649-2.799,6.734-6.195,8.128c-0.037,0.015-0.074,0.03-0.11,0.045c-3.378,1.391-7.236,0.904-10.082-1.386 L70.752,177.31c-3.932-3.164-9.616-2.857-13.184,0.712l-31.411,31.411c-3.569,3.569-3.876,9.253-0.712,13.185l16.78,20.855 c2.296,2.854,2.779,6.722,1.376,10.105c-0.017,0.04-0.033,0.081-0.05,0.121c-1.399,3.384-4.477,5.778-8.118,6.172L8.82,262.753 C3.802,263.296,0,267.532,0,272.579v44.422c0,5.047,3.802,9.283,8.82,9.826l26.612,2.881c3.641,0.394,6.72,2.788,8.118,6.172 c0.017,0.04,0.033,0.081,0.05,0.121c1.403,3.383,0.92,7.252-1.376,10.106l-16.78,20.855c-3.164,3.932-2.857,9.616,0.712,13.185 l31.411,31.411c3.569,3.569,9.253,3.876,13.185,0.712l20.864-16.787c2.846-2.291,6.704-2.777,10.082-1.386 c0.037,0.015,0.074,0.03,0.111,0.045c3.396,1.394,5.799,4.478,6.194,8.128l2.883,26.624c0.543,5.018,4.779,8.82,9.826,8.82h44.422 c5.047,0,9.283-3.802,9.826-8.82l2.883-26.624c0.395-3.649,2.798-6.734,6.194-8.128c0.037-0.015,0.074-0.03,0.11-0.045 c3.378-1.391,7.236-0.905,10.083,1.386l20.864,16.787c3.932,3.164,9.616,2.857,13.185-0.712l31.411-31.411 c3.569-3.569,3.875-9.253,0.712-13.185l-16.78-20.855c-2.296-2.853-2.779-6.722-1.376-10.106c0.016-0.04,0.033-0.08,0.05-0.121 c1.399-3.384,4.477-5.778,8.118-6.172l26.612-2.881c5.017-0.544,8.82-4.78,8.82-9.826v-44.422 C285.848,267.532,282.046,263.296,277.028,262.753z M142.924,339.349c-24.609,0-44.559-19.95-44.559-44.559 c0-24.609,19.95-44.559,44.559-44.559s44.559,19.95,44.559,44.559C187.483,319.399,167.533,339.349,142.924,339.349z">
+                        </path>
+                        <path class="st0"
+                          d="M507.469,218.212L489.2,203.785c-2.91-2.298-4.526-5.821-4.528-9.53c0-0.039,0-0.078,0-0.118 c-0.006-3.717,1.611-7.249,4.528-9.552l18.269-14.428c4.184-3.304,5.664-8.985,3.624-13.91l-8.025-19.374 c-2.04-4.926-7.104-7.896-12.398-7.274l-23.12,2.716c-3.692,0.434-7.333-0.92-9.956-3.553c-0.027-0.028-0.055-0.056-0.083-0.083 c-2.622-2.624-3.97-6.258-3.537-9.941l2.716-23.119c0.622-5.294-2.349-10.358-7.274-12.398l-19.374-8.024 c-4.925-2.04-10.606-0.56-13.91,3.623l-14.428,18.268c-2.299,2.911-5.822,4.526-9.53,4.528c-0.04,0-0.079,0-0.118,0 c-3.716,0.006-7.248-1.611-9.552-4.528l-14.428-18.269c-3.304-4.184-8.986-5.664-13.911-3.624l-19.374,8.025 c-4.925,2.04-7.896,7.104-7.274,12.399l2.716,23.12c0.434,3.691-0.92,7.332-3.553,9.956c-0.028,0.028-0.056,0.056-0.084,0.084 c-2.624,2.622-6.257,3.97-9.941,3.537l-23.119-2.716c-5.295-0.622-10.358,2.349-12.398,7.274l-8.025,19.374 c-2.04,4.925-0.56,10.607,3.624,13.911l18.268,14.427c2.911,2.299,4.526,5.821,4.528,9.53c0,0.04,0,0.079,0,0.118 c0.007,3.717-1.611,7.249-4.528,9.552l-18.269,14.428c-4.184,3.304-5.664,8.985-3.623,13.91l8.024,19.374 c2.04,4.925,7.104,7.896,12.398,7.274l23.121-2.716c3.691-0.434,7.332,0.92,9.956,3.553c0.028,0.028,0.055,0.056,0.083,0.083 c2.622,2.624,3.97,6.257,3.537,9.941l-2.716,23.12c-0.622,5.295,2.349,10.358,7.274,12.398l19.374,8.025 c4.925,2.04,10.606,0.56,13.911-3.624l14.427-18.268c2.299-2.911,5.821-4.526,9.53-4.528c0.039,0,0.078,0,0.118,0 c3.716-0.007,7.249,1.611,9.552,4.528l14.428,18.269c3.304,4.184,8.985,5.664,13.911,3.624l19.374-8.025 c4.925-2.04,7.896-7.104,7.274-12.398l-2.716-23.12c-0.434-3.691,0.92-7.333,3.553-9.956c0.028-0.028,0.056-0.056,0.084-0.083 c2.624-2.621,6.257-3.97,9.941-3.537l23.12,2.716c5.295,0.622,10.358-2.349,12.398-7.274l8.025-19.374 C513.132,227.198,511.653,221.516,507.469,218.212z M403.948,228.701c-18.584,7.698-39.89-1.127-47.588-19.712 s1.128-39.89,19.712-47.588c18.584-7.698,39.89,1.127,47.588,19.712C431.357,199.697,422.532,221.004,403.948,228.701z">
+                        </path>
                       </g>
-                    </g></svg
-                ></a>
-                <a
-                  class="m-4"
-                  href="https://github.com/Gauthierlaplace/Once-upon-an-app-back"
-                  target="_blank"
-                  ><svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="64"
-                    height="64"
-                    fill="white"
-                    class="bi bi-github"
-                    viewBox="0 0 16 16"
-                  >
+                    </g>
+                  </svg></a>
+                <a class="m-4" href="https://github.com/Gauthierlaplace/Once-upon-an-app-back" target="_blank"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-github"
+                    viewBox="0 0 16 16">
                     <path
-                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
-                    /></svg
-                ></a>
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                  </svg></a>
               </div>
             </div>
           </div>
         </div>
-        <!-- O'flix -->
-        <div
-          class="bg-black rounded-lg shadow-md overflow-hidden project-card"
-        >
-          <img
-            src="./images/oflix/Oflix.png"
-            alt="Project Image"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-2xl font-bold mb-4 text-white">
-              O'Flix, la cinémathèque
-            </h3>
-            <p class="text-white">
-              Projet réalisé lors de la spécialisation Symfony avec O'clock.
-              Il s'agit d'une application réunissant des films.
-            </p>
-            <a href="#" class="block text-white hover:underline mt-4"
-              >Check it out! 🚀</a
-            >
-          </div>
-        </div>
-        <!-- Dice Roller -->
-        <div
-          class="bg-black rounded-lg shadow-md overflow-hidden project-card"
-        >
-          <img
-            src="./images/diceRoller/kotlin_dice_roller.gif"
-            alt="Project Image"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-2xl font-bold mb-4 text-white">
-              Dice Roller, Kotlin, How does it work?
-            </h3>
-            <p class="text-white">
-              Projet de découverte Kotlin sur Android Studio, réalisé en
-              autonomie. <br />
-              Paramétrage d'un nouvel environnement de travail, suivi de
-              tutoriel technique intégralement anglophone.
-            </p>
-            <a
-              href="https://www.udacity.com/"
-              class="block text-white hover:underline mt-4"
-              target="_blank"
-              >Udacity.com</a
-            >
-          </div>
-        </div>
-        <!-- Fetch Démo -->
-        <div
-          class="bg-black rounded-lg shadow-md overflow-hidden project-card"
-        >
-          <img
-            src="./images/FetchDemo/fetchDemo.png"
-            alt="Project Image"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-2xl font-bold mb-4 text-white">
-              Fetch Démo, Tips perso
-            </h3>
-            <p class="text-white">
-              Afin d'améliorer ma compréhension de certains fonctionnements,
-              je réalise parfois des applications minimalistes. Ici, j'utilise
-              JavaScript natif pour détailler l'utilisation de Fetch.
-            </p>
-            <a href="#" class="block text-white hover:underline mt-4"
-              >Check it out! 🚀</a
-            >
-          </div>
-        </div>
-        <!-- Afishon -->
-        <div
-          class="bg-black rounded-lg shadow-md overflow-hidden project-card"
-        >
-          <img
-            src="./images/afishon/cartFish.jpeg"
-            alt="Project Image"
-            class="w-full h-64 object-cover"
-          />
+        <!-- Afishon 6-->
+        <div class="bg-black rounded-lg shadow-md overflow-hidden project-card">
+          <img src="./images/afishon/cartFish.jpeg" alt="Project Image" class="w-full h-64 object-cover" />
           <div class="p-6">
             <h3 class="text-2xl font-bold mb-4 text-white">
               Afishon, E-commerce d'articles de pêche, de la conception à la
               livraison
             </h3>
+            <div class="flex flex-wrap items-center justify-center">
+              <svg class="infos-6" viewBox="0 0 24 24" width="64" height="64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="white">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g clip-path="url(#clip0_429_11160)">
+                    <circle cx="12" cy="11.9999" r="9" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></circle>
+                    <rect x="12" y="8" width="0.01" height="0.01" stroke="white" stroke-width="3.75"
+                      stroke-linejoin="round"></rect>
+                    <path d="M12 12V16" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_429_11160">
+                      <rect width="24" height="24" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </g>
+              </svg>
+              <div class="card-content-6" hidden>
             <p class="text-white">
               Projet E-commerce en cours de réalisation, application basé sur
               le framework Symfony.
@@ -578,143 +324,346 @@
               Actuellement en phase de conception du cahier des charges,
               création de documentation.
             </p>
-            <a href="#" class="block text-white hover:underline mt-4"
-              >Check it out! 🚀</a
-            >
           </div>
         </div>
-        <!-- GOT -->
-        <div
-          class="bg-black rounded-lg shadow-md overflow-hidden project-card"
-        >
-          <img
-            src="./images/got/got.png"
-            alt="Project Image"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-2xl font-bold mb-4 text-white">
-              Game of Thrones, Projet découverte Laravel
-            </h3>
-            <p class="text-white">
-              Projet Laravel, découverte d'un framework différent de symfony.
-            </p>
-            <a href="#" class="block text-white hover:underline mt-4"
-              >Check it out! 🚀</a
-            >
+        <div class="flex flex-wrap items-center justify-center">
+          <a class="m-4" href="https://github.com/AnthonyBoutherin/AFishOn" target="_blank"><svg
+              xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-github"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+            </svg></a>
+        </div>
           </div>
         </div>
-        <!-- Trip O'dvisor -->
-        <div
-          class="bg-black rounded-lg shadow-md overflow-hidden project-card"
-        >
-          <img
-            src="./images/tripOdvisor/trip-Odvisor.jpg"
-            alt="Project Image"
-            class="w-full h-64 object-cover"
-          />
+        <!-- Trip O'dvisor 7-->
+        <div class="bg-black rounded-lg shadow-md overflow-hidden project-card">
+          <img src="./images/tripOdvisor/trip-Odvisor.jpg" alt="Project Image" class="w-full h-64 object-cover" />
           <div class="p-6">
             <h3 class="text-2xl font-bold mb-4 text-white">Trip O'dvisor</h3>
+            <div class="flex flex-wrap items-center justify-center">
+              <svg class="infos-7" viewBox="0 0 24 24" width="64" height="64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="white">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g clip-path="url(#clip0_429_11160)">
+                    <circle cx="12" cy="11.9999" r="9" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></circle>
+                    <rect x="12" y="8" width="0.01" height="0.01" stroke="white" stroke-width="3.75"
+                      stroke-linejoin="round"></rect>
+                    <path d="M12 12V16" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_429_11160">
+                      <rect width="24" height="24" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </g>
+              </svg>
+              <div class="card-content-7" hidden>
             <p class="text-white">
               Javascript natif, mise en place de thème dark/couleur,
               préférence utilisateur, caroussel
             </p>
-            <a href="#" class="block text-white hover:underline mt-4"
-              >Check it out! 🚀</a
-            >
           </div>
         </div>
-        <!-- TodoList React -->
-        <div
-          class="bg-black rounded-lg shadow-md overflow-hidden project-card"
-        >
-          <img
-            src="./images/todoList/todoList.png"
-            alt="Project Image"
-            class="w-full h-64 object-cover"
-          />
+        <div class="flex flex-wrap items-center justify-center">
+          <a class="m-4" href="https://github.com/O-clock-Radium/S03-tripodvisor-AnthonyBoutherin/" target="_blank"><svg
+              xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-github"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+            </svg></a>
+        </div>
+          </div>
+        </div>
+        <!-- TodoList React 8-->
+        <div class="bg-black rounded-lg shadow-md overflow-hidden project-card">
+          <img src="./images/todoList/todoList.png" alt="Project Image" class="w-full h-64 object-cover" />
           <div class="p-6">
             <h3 class="text-2xl font-bold mb-4 text-white">
               TodoList ReactJS
             </h3>
+            <div class="flex flex-wrap items-center justify-center">
+              <svg class="infos-8" viewBox="0 0 24 24" width="64" height="64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="white">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g clip-path="url(#clip0_429_11160)">
+                    <circle cx="12" cy="11.9999" r="9" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></circle>
+                    <rect x="12" y="8" width="0.01" height="0.01" stroke="white" stroke-width="3.75"
+                      stroke-linejoin="round"></rect>
+                    <path d="M12 12V16" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_429_11160">
+                      <rect width="24" height="24" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </g>
+              </svg>
+              <div class="card-content-8" hidden>
             <p class="text-white">
               Réalisation d'une todolist en ReactJS, ajout d'une tâche,
               compteur de tâches en cours...
             </p>
-            <a href="#" class="block text-white hover:underline mt-4"
-              >Check it out! 🚀</a
-            >
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-center">
+          <a class="m-4" href="https://github.com/O-clock-Radium/Spe-React-E06-todolist-v2-AnthonyBoutherin" target="_blank"><svg
+              xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-github"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+            </svg></a>
+        </div>
+          </div>
+        </div>
+        <!-- Dice Roller 4-->
+        <div class="bg-black rounded-lg shadow-md overflow-hidden project-card">
+          <img src="./images/diceRoller/kotlin_dice_roller.gif" alt="Project Image" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-4 text-white">
+              Dice Roller, Kotlin, How does it work?
+            </h3>
+            <div class="flex flex-wrap items-center justify-center">
+              <svg class="infos-4" viewBox="0 0 24 24" width="64" height="64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="white">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g clip-path="url(#clip0_429_11160)">
+                    <circle cx="12" cy="11.9999" r="9" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></circle>
+                    <rect x="12" y="8" width="0.01" height="0.01" stroke="white" stroke-width="3.75"
+                      stroke-linejoin="round"></rect>
+                    <path d="M12 12V16" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_429_11160">
+                      <rect width="24" height="24" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </g>
+              </svg>
+              <div class="card-content-4" hidden>
+                <p class="text-white">
+                  Projet de découverte Kotlin sur Android Studio, réalisé en
+                  autonomie. <br />
+                  Paramétrage d'un nouvel environnement de travail, suivi de
+                  tutoriel technique intégralement anglophone.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-wrap items-center justify-center">
+              <a href="https://www.udacity.com/" class="block text-white hover:underline mt-4" target="_blank"><svg
+                  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                  stroke="white">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L12.5 6.06212"
+                      stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                    <path
+                      d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373"
+                      stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                  </g>
+                </svg></a>
+              <a class="m-4" href="https://github.com/AnthonyBoutherin/MyDiceRoller" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-github"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <!-- Fetch Démo 5-->
+        <div class="bg-black rounded-lg shadow-md overflow-hidden project-card">
+          <img src="./images/FetchDemo/fetchDemo.png" alt="Project Image" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-4 text-white">
+              Fetch Démo, Tips perso
+            </h3>
+            <div class="flex flex-wrap items-center justify-center">
+              <svg class="infos-5" viewBox="0 0 24 24" width="64" height="64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="white">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g clip-path="url(#clip0_429_11160)">
+                    <circle cx="12" cy="11.9999" r="9" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></circle>
+                    <rect x="12" y="8" width="0.01" height="0.01" stroke="white" stroke-width="3.75"
+                      stroke-linejoin="round"></rect>
+                    <path d="M12 12V16" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_429_11160">
+                      <rect width="24" height="24" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </g>
+              </svg>
+              <div class="card-content-5" hidden>
+                <p class="text-white">
+                  Afin d'améliorer ma compréhension de certains fonctionnements,
+                  je réalise parfois des applications minimalistes. Ici, j'utilise
+                  JavaScript natif pour détailler l'utilisation de Fetch.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-wrap items-center justify-center">
+              <a class="m-4" href="https://github.com/AnthonyBoutherin/fetchAPI-Demo" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-github"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <!-- O'flix 3-->
+        <div class="bg-black rounded-lg shadow-md overflow-hidden project-card">
+          <img src="./images/oflix/Oflix.png" alt="Project Image" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-4 text-white">
+              O'Flix, la cinémathèque
+            </h3>
+            <div class="flex flex-wrap items-center justify-center">
+              <svg class="infos-3" viewBox="0 0 24 24" width="64" height="64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="white">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g clip-path="url(#clip0_429_11160)">
+                    <circle cx="12" cy="11.9999" r="9" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></circle>
+                    <rect x="12" y="8" width="0.01" height="0.01" stroke="white" stroke-width="3.75"
+                      stroke-linejoin="round"></rect>
+                    <path d="M12 12V16" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_429_11160">
+                      <rect width="24" height="24" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </g>
+              </svg>
+              <div class="card-content-3" hidden>
+                <p class="text-white">
+                  Projet réalisé lors de la spécialisation Symfony avec O'clock.
+                  Il s'agit d'une application réunissant des films.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-wrap items-center justify-center">
+              <a class="m-4" href="https://github.com/O-clock-Radium/symfo-oflix-AnthonyBoutherin" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-github"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <!-- GOT 9-->
+        <div class="bg-black rounded-lg shadow-md overflow-hidden project-card">
+          <img src="./images/got/got.png" alt="Project Image" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-4 text-white">
+              Game of Thrones, Projet découverte Laravel
+            </h3>
+            <div class="flex flex-wrap items-center justify-center">
+              <svg class="infos-9" viewBox="0 0 24 24" width="64" height="64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="white">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g clip-path="url(#clip0_429_11160)">
+                    <circle cx="12" cy="11.9999" r="9" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></circle>
+                    <rect x="12" y="8" width="0.01" height="0.01" stroke="white" stroke-width="3.75"
+                      stroke-linejoin="round"></rect>
+                    <path d="M12 12V16" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_429_11160">
+                      <rect width="24" height="24" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </g>
+              </svg>
+              <div class="card-content-9" hidden>
+            <p class="text-white">
+              Projet Laravel, découverte d'un framework différent de symfony.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-center">
+          <a class="m-4" href="https://github.com/O-clock-Radium/prepa-Symfony-GOT-AnthonyBoutherin" target="_blank"><svg
+              xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-github"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+            </svg></a>
+        </div>
           </div>
         </div>
       </div>
-    </section>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="bg-black py-16 text-white">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-8 text-center">Me contacter :</h2>
-        <div class="max-w-md mx-auto">
-          <form
-            action="https://formspree.io/f/xqkrgzgv"
-            method="post"
-            class="space-y-4 form"
-          >
-            <div>
-              <label for="name" class="block font-bold mb-2">Votre Nom</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
-                placeholder="Entrez votre Nom"
-                required
-              />
-            </div>
-            <div>
-              <label for="email" class="block font-bold mb-2"
-                >Votre Email</label
-              >
-              <input
-                type="email"
-                id="email"
-                name="email"
-                class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
-                placeholder="Entrez votre email"
-                required
-              />
-            </div>
-            <div>
-              <label for="message" class="block font-bold mb-2"
-                >Votre Message</label
-              >
-              <textarea
-                name="message"
-                id="message"
-                rows="4"
-                class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
-                placeholder="Entrez votre message"
-                required
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              class="bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300"
-            >
-              ✉️ Envoyer
-            </button>
-          </form>
-        </div>
+  <!-- Contact Section -->
+  <section id="contact" class="bg-black py-16 text-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Me contacter :</h2>
+      <div class="max-w-md mx-auto">
+        <form action="https://formspree.io/f/xqkrgzgv" method="post" class="space-y-4 form">
+          <div>
+            <label for="name" class="block font-bold mb-2">Votre Nom</label>
+            <input type="text" id="name" name="name"
+              class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500 text-black"
+              placeholder="Entrez votre Nom" required />
+          </div>
+          <div>
+            <label for="email" class="block font-bold mb-2">Votre Email</label>
+            <input type="email" id="email" name="email"
+              class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500 text-black"
+              placeholder="Entrez votre email" required />
+          </div>
+          <div>
+            <label for="message" class="block font-bold mb-2">Votre Message</label>
+            <textarea name="message" id="message" rows="4"
+              class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500 text-black"
+              placeholder="Entrez votre message" required></textarea>
+          </div>
+          <button type="submit"
+            class="bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
+            ✉️ Envoyer
+          </button>
+        </form>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="bg-black-600 text-white py-8">
-      <div class="container mx-auto px-4 text-center">
-        <p>
-          &copy; 2024 PortFolio Anthony Boutherin | All rights reserved |
-          Designed with ❤️ by Anthony Boutherin.
-        </p>
-      </div>
-    </footer>
-  </body>
+  <!-- Footer -->
+  <footer class="bg-black-600 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>
+        &copy; 2024 PortFolio Anthony Boutherin | All rights reserved |
+        Designed with ❤️ by Anthony Boutherin.
+      </p>
+    </div>
+  </footer>
+</body>
 </html>
