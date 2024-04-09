@@ -16,6 +16,10 @@ header {
   margin-bottom: 5em;
 }
 
+.separation {
+  border-top: 5px solid white;
+}
+
 .logoAb {
   height: 6rem;
   position: fixed;
@@ -25,7 +29,7 @@ header {
 }
 
 .portraitAb {
-  height: 8rem;
+  height: 20em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2.5em;
@@ -116,7 +120,7 @@ header {
   }
 
   .portraitAb {
-    height: 4em;
+    height: 10em;
   }
 
   .navbar-list {
